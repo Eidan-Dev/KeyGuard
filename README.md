@@ -1,7 +1,5 @@
 # keyguard
 
-<img width="540" height="540" alt="keyguard-x-demo" src="https://github.com/user-attachments/assets/0f9ce402-33f8-4b04-9126-4ec04d394608" />
-
 **Stop committing API keys.** `keyguard` blocks a Git commit when it contains a secret: AWS keys, Stripe live keys, GitHub tokens, private keys, hardcoded passwords.
 
 ```bash
@@ -69,11 +67,6 @@ TEST_TOKEN = "ghp_0000000000000000000000000000000000AA"  # keyguard: ignore
 Keep the marker rare. A tool that cries wolf on every commit gets disabled within a week.
 
 ## Important
-
-keyguard-x-video
-.mp4
-MP4
-
 
 `keyguard` catches common patterns, not every possible secret. It does not replace a secret manager, and it cannot undo a leak. If a key has been pushed, revoke it first, then clean up the history.
 
