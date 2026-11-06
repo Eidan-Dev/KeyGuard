@@ -1,5 +1,7 @@
 # keyguard
 
+<img width="540" height="540" alt="keyguard-x-demo" src="https://github.com/user-attachments/assets/0f9ce402-33f8-4b04-9126-4ec04d394608" />
+
 **Stop committing API keys.** `keyguard` blocks a Git commit when it contains a secret: AWS keys, Stripe live keys, GitHub tokens, private keys, hardcoded passwords.
 
 ```bash
